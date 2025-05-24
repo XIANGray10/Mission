@@ -180,6 +180,9 @@ ul{
 @media (max-width:428px){
      ul{
     width: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 }
 
