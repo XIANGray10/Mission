@@ -79,6 +79,7 @@ table {
 @media (max-width:428px){
  .header2{
     width: 428px;
+    display: flex;
     flex-wrap: wrap;
 }
 }
@@ -153,6 +154,14 @@ table {
     border-radius: 20px;
 }
 
+@media (max-width:428px){
+    .header7{
+        width: 428px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .wrap{
     width: 1278px;
     margin: 0 auto;
@@ -169,6 +178,8 @@ table {
         width: 428px;
     }
 }
+
+
 .search{
     width: 160px;
     border: 1px black solid;
