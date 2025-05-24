@@ -56,15 +56,19 @@ table {
     margin-bottom: 20px;
 }
 
-@media (max-width:375px){
- .header{width: 375px;}
-}
+
 
 
 .header a{
     font-size: 28px;
     padding: 10px; 
 }
+
+
+@media (max-width:375px){
+ .header{width: 375px;}
+}
+
 
 .header2{
     width: 100%;
@@ -75,6 +79,14 @@ table {
 .header3{
     width: 50%;
 }
+
+@media (max-width:375px){
+ .header2{
+    width: 375px;
+    flex-wrap: wrap;
+}
+}
+
 
 .header4{
     width: 50%;
