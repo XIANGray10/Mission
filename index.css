@@ -87,7 +87,9 @@ table {
  .header2{
     width: 428px;
     display: flex;
+    
     flex-wrap: wrap;
+    flex-direction: column;
 }
 }
 
@@ -156,6 +158,13 @@ table {
     width: 80px;
     text-align: center;
     border-radius: 20px;
+}
+
+
+@media (max-width:428px){
+ .header8 img{
+    width: 100%;
+}
 }
 
 @media (max-width:428px){
