@@ -177,6 +177,13 @@ ul{
 
 }
 
+@media (max-width:428px){
+     ul{
+    width: 375px;
+}
+}
+
+
 li{
     margin-right: 10px;
 }
