@@ -76,6 +76,13 @@ table {
     
 }
 
+
+
+.header3{
+    width: 50%;
+}
+
+
 @media (max-width:428px){
  .header2{
     width: 428px;
@@ -84,13 +91,10 @@ table {
 }
 }
 
-.header3{
-    width: 50%;
-}
 
 @media (max-width:428px){
  .header3 img{
-    width: 428px;
+    width: 100%;
 }
 }
 
