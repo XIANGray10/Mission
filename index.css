@@ -163,6 +163,12 @@ table {
     width: 416px;
 }
 
+
+@media (max-width:428px){
+    .wrap{
+        width: 428px;
+    }
+}
 .search{
     width: 160px;
     border: 1px black solid;
