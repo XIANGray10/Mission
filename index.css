@@ -176,6 +176,8 @@ table {
 @media (max-width:428px){
     .wrap{
         width: 428px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -194,14 +196,7 @@ ul{
 
 }
 
-@media (max-width:428px){
-     ul{
-    width: 375px;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-}
+
 
 
 li{
