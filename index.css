@@ -61,7 +61,8 @@ table {
 
 .header a{
     font-size: 28px;
-    padding: 10px; 
+    padding: 10px;
+    font-weight: 700; 
 }
 
 
@@ -96,7 +97,7 @@ table {
 
 @media (max-width:428px){
  .header3 img{
-    width: 100%;
+    width: 428px;
 }
 }
 
@@ -109,14 +110,20 @@ table {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: #0027d5;
+    padding-left: 80px;
 }
 
 .header4 h1{
-    font-size: 80px;
+    font-size: 120px;
+    font-weight: 900;
+    padding-bottom: 40px;
+    
 }
 
 .header4 h2{
-    font-size: 19px;
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .header7{
@@ -136,7 +143,16 @@ table {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 40px;
+    width: 50%;
 }
+
+.header9 p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
 
 .header10{
     display: flex;
@@ -144,26 +160,64 @@ table {
     align-items: center;
 }
 
+.header10 p{
+    font-size: 24px;
+    color: #0027d5;
+    font-weight: 500;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}    
+
 .header10 a{
     margin-left: 10px;
     height: 20px;
-    border-radius: 20px;
-    background: blue;
+    border-radius: 40px;
+    background: #0027d5;
     color: white;
-    
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.header9 h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .header11{
     border: 1px black solid;
     width: 80px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px;
+    color: #4b4b4b;
+    margin-top: 16px;
+}
+
+.text{
+    font-size: 16px;
+    font-weight: 500;
+    width: 600px;
+    line-height: 24px;
+    max-height: 48px;
+    display: -webkit-box;
+     -webkit-line-clamp: 2;
+     -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
 @media (max-width:428px){
  .header8 img{
-    width: 100%;
+    width: 428px;
 }
 }
 
@@ -196,6 +250,59 @@ table {
 }
 
 
+.date{
+   font-size: 16px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-weight: 500;
+}
+
+.text2{
+    width: 412px;
+    display: -webkit-box;
+     -webkit-line-clamp: 2;
+     -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 15px;
+    line-height: 1.5;
+
+}
+
+.tag{
+    font-size: 24px;
+    color: #0027d5;
+    font-weight: 500;
+    
+}
+
+li h2{
+    font-size: 28px;
+    font-weight: 700;
+    width: 412px;
+    margin-top: 15px;
+    line-height: 1.5;
+    
+}
+
+
+
+.read{
+    display: flex;
+    width: 64px;
+    font-size: 16px;
+    border: 1px black solid;
+    border-radius: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    
+
+}
+
 .search{
     width: 160px;
     border: 1px black solid;
@@ -219,15 +326,29 @@ li{
 
 .footer{
     display: flex;
+    width: 1278px;
+    justify-content: center;
     margin: 0 auto;
-
 }
 
+.footer a{
+    width: 40px;
+}
+
+.footer1 p{
+    font-size: 32px;
+    font-weight: 500;
+}
 
 .footer1{
     display: flex;
-    justify-content: space-around;
+    width: 1278px;
+    margin: 0 auto;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    
 }
 
 
@@ -238,4 +359,6 @@ li{
 }
 
 .footer3{
-    text-align: center;}
+    text-align: center;
+    margin-bottom: 30px;
+}
